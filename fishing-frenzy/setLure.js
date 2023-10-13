@@ -1,4 +1,4 @@
-(async () => {
+basync () => {
     let n = document.createElement('iframe');
     document.body.append(n);
     window.alert = n.contentWindow.alert.bind(window);
